@@ -1,90 +1,100 @@
-💬 WooWoo – Focused Real-Time Chat & AI Assistant (Flutter)
+💬 WooWoo – Focused Real-Time Chat & AI Assistant (Android)
 
-A modern Flutter-based chat application designed to enhance productivity for students and educators. WooWoo provides a distraction-free environment for meaningful conversations and instant academic support powered by AI.
+WooWoo is a modern Android chat application built to enhance productivity for students and educators.
+It provides a distraction-free communication environment with real-time messaging and instant academic support powered by AI.
 
 🚀 Features
 👥 Smart Communication
 
-Unique WooWoo ID System: Create and share a personal WooWoo ID with secure authentication
+Unique WooWoo ID System
+Create a personal WooWoo ID with secure authentication.
 
-Real-Time Messaging: Instant messaging with friends and colleagues
+Real-Time Messaging
+Instantly chat with friends and colleagues using Firebase Firestore.
 
-User Discovery: Search and connect using unique WooWoo IDs
+Contact Discovery
+Search and connect with users via unique WooWoo IDs.
 
 🧠 Integrated AI Assistant
 
-Academic Support: Get instant help with questions, concepts, and problem-solving
+Academic Support
+Get instant help with questions, concepts, and problem-solving.
 
-OpenAI Integration: AI-powered responses for accurate and meaningful assistance
+OpenAI Integration
+AI-powered responses for meaningful and accurate assistance.
 
-Learning-Centric Design: Built to improve focus, understanding, and productivity
+Learning-Focused Design
+Optimized to improve understanding and productivity.
 
-💎 Modern Flutter Development
+💎 Modern Android Development
 
-Clean Architecture: Structured using MVVM-inspired layers for scalability and maintainability
+Clean Architecture (MVVM)
+Ensures scalability, testability, and maintainability.
 
-Flutter UI: Fully responsive and declarative UI using reusable widgets
+Jetpack Compose UI
+Fully declarative UI with modern Android development practices.
 
-Real-Time Sync: Firebase-powered instant messaging and data updates
+Real-Time Synchronization
+Firebase-powered live updates without manual refresh.
 
 🛠️ Tech Stack
 
-Language: Dart
+Language: Kotlin
 
-Framework: Flutter
+UI Framework: Jetpack Compose
 
 Backend: Firebase (Authentication, Firestore)
 
 AI Integration: OpenAI API
 
-Architecture: MVVM / Clean Architecture principles
+Architecture: MVVM + Clean Architecture
 
 📁 Project Structure
-lib/
+app/
 ├── data/
-│   ├── models/
-│   ├── repositories/
-│   └── services/
+│   ├── repository/
+│   ├── model/
+│   └── remote/
 ├── domain/
-│   ├── entities/
-│   └── use_cases/
-├── presentation/
+│   ├── use_cases/
+│   └── repository/
+├── ui/
 │   ├── auth/
 │   ├── chat/
-│   ├── ai_chat/
-│   └── widgets/
+│   ├── aichat/
+│   └── components/
 ├── utils/
-└── main.dart
+└── di/
 
 🔧 Key Implementation Details
 🔐 Authentication & Security
 
-Custom WooWoo ID system for user identification
+Custom WooWoo ID system with secure credential handling.
 
-Firebase Authentication for secure and reliable user management
+Firebase Authentication for reliable and scalable user management.
 
 💬 Real-Time Chat
 
-Firestore for live message synchronization
+Firestore used for instant message synchronization.
 
-Optimized Flutter widgets for smooth scrolling and message rendering
+Optimized Jetpack Compose components for smooth scrolling and message rendering.
 
 🤖 AI Integration
 
-Clean and modular OpenAI API integration
+Clean and modular OpenAI API integration.
 
-Structured prompts for educational and contextual responses
+Structured prompts focused on educational use cases.
 
-Efficient chat history handling for better performance
+Efficient chat history handling for performance optimization.
 
 📸 Screenshots
 
-All application screenshots are included in the repository and can be viewed by clicking the preview images.
+All screenshots are included in the repository and can be viewed by clicking the preview images.
 
 🎯 Why WooWoo?
 
-Traditional social platforms focus on endless engagement and distractions.
-WooWoo is built with a purpose-first mindset — enabling quality conversations, focused learning, and meaningful AI assistance.
+Traditional social media apps focus on endless engagement and distractions.
+WooWoo is built with a purpose-driven approach — enabling focused conversations, meaningful learning, and intelligent AI assistance.
 
 Ideal for:
 
@@ -92,7 +102,7 @@ Students
 
 Educators
 
-Professionals seeking distraction-free communication
+Users who value focused communication
 
 📥 Download
 
@@ -110,6 +120,6 @@ File & document sharing
 
 Push notifications
 
-Voice messaging
+Voice messages
 
 End-to-end encryption
